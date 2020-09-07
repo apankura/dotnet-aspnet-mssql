@@ -12,9 +12,9 @@ namespace Apankura.Api.Controllers
     public class ApankuraController : ControllerBase
     {        
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<ApankuraController> _logger;
 
-        public ApankuraController(ILogger<WeatherForecastController> logger)
+        public ApankuraController(ILogger<ApankuraController> logger)
         {
             _logger = logger;
         }
